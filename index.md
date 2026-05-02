@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Computer Vision for the Built World
-description: CV4AEC @ CVPR 2026 (Date TBD)
+description: CV4AEC @ CVPR 2026 (June 3, 1PM-6PM, Room 109)
 ---
 
 <p style="text-align: center; margin-bottom: 1.5em;">:wave: Welcome to the <strong>5<sup>th</sup> Workshop on
@@ -40,43 +40,42 @@ The workshop will consist of: invited <a href="#speakers" target="_self">keynote
 ## :hourglass_flowing_sand: **Important Dates** {#dates}
 > **NOTE**: The submission/release times are **11:59:59 UTC** on the specified date.
 
-<strong><u>Archival Paper Submission (8 pages)</u></strong>
-- **15 Jan 2026 ---** Submissions open
-- **15 Mar 2026 ---** Submission deadline
-- **24 Mar 2026 ---** Final decisions / Reviews sent
-- **10 Apr 2026 ---** Camera ready deadline
-
 <strong><u>Non-Archival Paper Submission (4 pages)</u></strong>
-- **15 Jan 2026 ---** Submissions open
+- **11 May 2026 ---** Final decisions / Reviews sent
 - **15 Apr 2026 ---** Submission deadline
-- **1 May 2026 ---** Final decisions / Reviews sent
+- **15 Jan 2026 ---** Submissions open
 
 <strong><u>Nothing Stands Still Challenge</u></strong>
-- **15 Jan 2026 ---** Dataset release & Registration opens
-- **15 Feb 2026 ---** Submission window opens (evaluation server live)
-- **30 Apr 2026 ---** Challenge submission deadline
-- **30 Apr -- 4 May 2026 ---** Review & Evaluation
+- **3 Jun 2026 ---** CV4AEC Workshop @ CVPR 2026
 - **5 May 2026 ---** Notification of challenge winners
-- **TBD ---** CV4AEC Workshop @ CVPR 2026
+- **30 Apr -- 4 May 2026 ---** Review & Evaluation
+- **30 Apr 2026 ---** Challenge submission deadline
+- **15 Feb 2026 ---** Submission window opens (evaluation server live)
+- **15 Jan 2026 ---** Dataset release & Registration opens
+
+<strong><u>Archival Paper Submission (8 pages)</u></strong>
+- **10 Apr 2026 ---** Camera ready deadline
+- **24 Mar 2026 ---** Final decisions / Reviews sent
+- **15 Mar 2026 ---** Submission deadline
+- **15 Jan 2026 ---** Submissions open
 
 ---
 
 ## :calendar: **Schedule** {#schedule}
-The workshop will take place on a **date TBD** as a **half-day in-person event (4 hours)**.
+The workshop will take place on a **June 3rd, Room 109** as a **half-day in-person event (1pm - 6pm)**.
 
-> **NOTE**: The schedule is tentative. Exact times will be updated closer to the workshop date.
 
 | Time          | Duration  | Session                                                               |
 |---------------|-----------|-----------------------------------------------------------------------|
-| 0:00 -- 0:10  | 10 mins   | Welcome & Introduction                                                |
-| 0:10 -- 0:40  | 30 mins   | **Keynote 1**                                                         |
-| 0:40 -- 1:10  | 30 mins   | **Keynote 2**                                                         |
-| 1:10 -- 1:50  | 40 mins   | Challenge Winners Session (10 min intro + 30 min presentations)       |
-| 1:50 -- 2:30  | 40 mins   | _Poster Session + Coffee Break_                                       |
-| 2:30 -- 3:00  | 30 mins   | **Keynote 3**                                                         |
-| 3:00 -- 3:30  | 30 mins   | **Keynote 4**                                                         |
-| 3:30 -- 4:00  | 30 mins   | Oral Presentations (Best papers)                                      |
-| 4:00          | 5-10 mins | _Conclusion & Closing Remarks_                                        |
+| 1:00 -- 1:15  | 15 mins   | Welcome & Introduction                                                |
+| 1:15 -- 1:55  | 40 mins   | **Semiha Ergan**                                                         |
+| 1:55 -- 2:35  | 40 mins   | **Jia Deng**                                                         |
+| 2:35 -- 3:20  | 40 mins   | Challenge Winners Session        |
+| 3:20 -- 4:05  | 45 mins   | _Poster Session + Coffee Break_                                       |
+| 4:05 -- 4:45  | 40 mins   | **Debra Laefer**                                                         |
+| 4:45 -- 5:15  | 30 mins   | _Oral Presentations (Best papers)_                                                        |
+| 5:15 -- 5:55  | 30 mins   | **Huaizu Jiang**                                     |
+| 5:55 -- 6:00  | 10 mins | _Conclusion & Closing Remarks_                                        |
 
 ---
 
