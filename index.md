@@ -179,12 +179,13 @@ The challenge focuses on **spatiotemporal 3D point cloud registration** of evolv
 
 | Milestone | Date |
 |-----------|------|
-| Dataset Release & Registration Opens | January 15, 2026 |
-| Submission Window Opens (evaluation server live) | February 15, 2026 |
-| Submission Deadline | April 30, 2026 |
-| Review & Evaluation | April 30 -- May 4, 2026 |
+| Workshop Presentation & Awards | June 3, 2026 |
 | Notification of Challenge Winners | May 5, 2026 |
-| Workshop Presentation & Awards | TBD |
+| Review & Evaluation | April 30 -- May 4, 2026 |
+| Submission Deadline | April 30, 2026 |
+| Submission Window Opens (evaluation server live) | February 15, 2026 |
+| Dataset Release & Registration Opens | January 15, 2026 |
+
 
 > **Ethical Note:** All construction sites in the dataset are located in North America, which may limit the generalization of models trained on this data. Participants are encouraged to consider methods for robust and fair modeling across varied environments.
 
