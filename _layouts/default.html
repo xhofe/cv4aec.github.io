@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
 
 {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="#B83A4B">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
@@ -18,36 +19,65 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      {% if page.path == 'index.md' or page.url == '/' or page.url == '/index.html' %}
+      <div class="event-highlight">
+        <p class="event-highlight__title">CV4AEC @ CVPR 2026</p>
+        <ul class="event-highlight__meta">
+          <li><a href="#schedule">June 3, 2026</a></li>
+          <li>1:00 PM – 6:00 PM</li>
+          <li>Room 109</li>
+        </ul>
+      </div>
+      {% elsif page.event_highlight %}
+      <div class="event-highlight">
+        <p class="event-highlight__title">{{ page.event_highlight.title }}</p>
+        <ul class="event-highlight__meta">
+          {% if page.event_highlight.date %}<li><a href="#schedule">{{ page.event_highlight.date }}</a></li>{% endif %}
+          {% if page.event_highlight.time %}<li>{{ page.event_highlight.time }}</li>{% endif %}
+          {% if page.event_highlight.location %}<li>{{ page.event_highlight.location }}</li>{% endif %}
+        </ul>
+      </div>
+      {% else %}
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-<!--      {% if site.github.is_project_page %}-->
-<!--        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>-->
-<!--      {% endif %}-->
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
 
-      <a href="#news" class="btn" target="_self">News</a>
-      <a href="#dates" class="btn" target="_self">Important Dates</a>
-      <a href="#schedule" class="btn" target="_self">Schedule</a>
-      <a href="#speakers" class="btn" target="_self">Keynote Speakers</a>
-      <a href="#accepted-papers" class="btn" target="_self">Accepted Papers</a>
-      <a href="#papers" class="btn" target="_self">Call for Papers</a>
-      <a href="#challenge" class="btn" target="_self">Challenge</a>
-      <a href="#organizers" class="btn" target="_self">Organizers</a>
-      <br>
-      <a href="{{ site.baseurl }}/index" class="btn" target="_self" style="width:150px">Latest</a>
-      <a href="{{ site.baseurl }}/cvpr2024" class="btn" target="_self" style="width:150px">CVPR 2024</a>
-      <a href="{{ site.baseurl }}/cvpr2023" class="btn" target="_self" style="width:150px">CVPR 2023</a>
-      <a href="{{ site.baseurl }}/cvpr2022" class="btn" target="_self" style="width:150px">CVPR 2022</a>
-      <a href="{{ site.baseurl }}/cvpr2021" class="btn" target="_self" style="width:150px">CVPR 2021</a>
-      
+      <nav class="site-nav" aria-label="Page sections">
+        {% if page.path == 'index.md' or page.url == '/' or page.url == '/index.html' %}
+        <a href="#topics" class="btn" target="_self">Topics</a>
+        {% endif %}
+        {% if page.path == 'cvpr2024.md' %}
+        <a href="#news" class="btn" target="_self">News</a>
+        {% endif %}
+        <a href="#dates" class="btn" target="_self">Important Dates</a>
+        <a href="#schedule" class="btn" target="_self">Schedule</a>
+        <a href="#speakers" class="btn" target="_self">Keynote Speakers</a>
+        {% unless page.path == "cvpr2021.md" or page.path == "cvpr2022.md" or page.path == "cvpr2023.md" %}
+        <a href="#accepted-papers" class="btn" target="_self">Accepted Papers</a>
+        <a href="#papers" class="btn" target="_self">Call for Papers</a>
+        {% endunless %}
+        <a href="#challenge" class="btn" target="_self">Challenge</a>
+        <a href="#organizers" class="btn" target="_self">Organizers</a>
+        <a href="#questions" class="btn" target="_self">Questions</a>
+      </nav>
+
+      {% include workshop-archives-nav.html %}
     </header>
 
-    <script src="assets/js/vanilla-back-to-top.min.js"></script>
+    <nav class="sticky-nav" id="sticky-nav" aria-label="Page sections (compact)" hidden>
+      {% include workshop-archives-nav.html variant='sticky' %}
+      <div class="sticky-nav__sections" id="sticky-nav-sections"></div>
+    </nav>
+
+    <div id="workshop-day-banner" class="workshop-day-banner" role="status" hidden>
+      <p class="workshop-day-banner__text"><strong>Today:</strong> CV4AEC @ CVPR 2026 — Room 109, 1:00 PM–6:00 PM</p>
+      <a class="workshop-day-banner__link" href="#schedule">View schedule</a>
+      <button type="button" class="workshop-day-banner__dismiss" aria-label="Dismiss">×</button>
+    </div>
+
+    <script src="{{ 'assets/js/vanilla-back-to-top.min.js' | relative_url }}"></script>
     <script>addBackToTop({
-      diameter: 56,
-      backgroundColor: '#4196ff',
+      diameter: 48,
+      backgroundColor: '#B83A4B',
       textColor: '#fff',
     })</script>
 
@@ -55,5 +85,26 @@
       {{ content }}
 
     </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer-inner">
+        <p class="site-footer-contact">
+          Questions? <a href="mailto:cv4aec.3d@gmail.com">cv4aec.3d@gmail.com</a>
+        </p>
+        <p class="site-footer-links">
+          {% if page.challenge_url %}
+          <a href="{{ page.challenge_url }}">Scan-to-BIM Challenge</a>
+          {% else %}
+          <a href="https://nothing-stands-still.com/challenge">Nothing Stands Still Challenge</a>
+          {% endif %}
+          <span aria-hidden="true"> · </span>
+          <a href="{{ page.cvpr_url | default: 'https://cvpr.thecvf.com/' }}">{{ page.cvpr_label | default: 'CVPR 2026' }}</a>
+        </p>
+        {% include workshop-archives-nav.html variant='footer' %}
+        <p class="site-footer-credits">CV4AEC Workshop · Computer Vision for the Built World </p>
+      </div>
+    </footer>
+
+    <script src="{{ 'assets/js/site.js' | relative_url }}"></script>
   </body>
 </html>

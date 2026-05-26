@@ -1,15 +1,20 @@
 ---
 layout: default
 title: Computer Vision for the Built World
-description: CV4AEC @ CVPR 2026 (June 3, 1PM-6PM, Room 109)
+description: CV4AEC @ CVPR 2026 — June 3, 1:00 PM–6:00 PM, Room 109, Denver
 ---
 
-<p style="text-align: center; margin-bottom: 1.5em;">:wave: Welcome to the <strong>5<sup>th</sup> Workshop on
-Computer Vision for the Built World</strong> organized at :wave:</p>
+<p class="intro-center">Welcome to the <strong>5<sup>th</sup> Workshop on Computer Vision for the Built World</strong> at CVPR 2026.</p>
 
-<p style="text-align: center; margin-top: 1.5em; margin-bottom: 1.5em;">
-<a href="https://cvpr.thecvf.com/"><img class="rounded-rect" src="assets/imgs/cvpr2026.png" width="400px" alt="cvpr2026"/></a>
+<p class="intro-center">
+<a href="https://cvpr.thecvf.com/"><img class="rounded-rect" src="assets/imgs/cvpr2026.png" width="400" height="120" loading="lazy" alt="CVPR 2026"/></a>
 </p>
+
+<div class="hero-actions">
+  <a class="submission-btn submission-btn--archival" href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Archival_Track#tab-recent-activity">Submit — Archival (8 pages)</a>
+  <a class="submission-btn submission-btn--nonarchival" href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Non-archival_Track">Submit — Non-Archival (4 pages)</a>
+  <a class="submission-btn submission-btn--challenge" href="https://nothing-stands-still.com/challenge">NSS Challenge</a>
+</div>
 
 This workshop bridges the fields of Architecture, Engineering, and Construction (AEC) with Computer Vision by focusing on how construction, the most dynamic, data-rich, and physically grounded phase of the built environment, can inform the way we design. Construction sites continuously evolve in geometry, appearance, and topology, offering a uniquely challenging yet structured setting for advancing computer vision tasks such as spatiotemporal modeling, semantic reasoning, and multimodal understanding. At the same time, the representations learned from construction data --- capturing how things are actually built, changed, and adapted --- can feed back into design processes, informing more generative, data-driven, and sustainable decision-making.
 
@@ -21,143 +26,322 @@ The workshop will consist of: invited <a href="#speakers" target="_self">keynote
 
 ---
 
-## :newspaper: **News** {#news}
-- **16 Feb 2026 ---** :tada: Website is live!
+<h2 class="section-heading section-heading--topics" id="topics">Topics</h2>
+
+<div class="topics-grid">
+
+<div class="topic-card">
+  <h3>Learning from change</h3>
+  <p>Vision-based modeling of evolving spaces/sites to capture temporal, geometric, and semantic changes across scales.</p>
+</div>
+
+<div class="topic-card">
+  <h3>Generative and predictive modeling</h3>
+  <p>Using construction-derived knowledge to propose design alternatives, predict project evolution, and support reuse and sustainability goals.</p>
+</div>
+
+<div class="topic-card">
+  <h3>Multimodal scene understanding</h3>
+  <p>Integrating 3D geometry, imagery, building sensors, and text-based project documentation for holistic understanding.</p>
+</div>
+
+<div class="topic-card">
+  <h3>Design-process feedback</h3>
+  <p>Translating as-built data into generative design prompts or constraints that make design more adaptive, data-informed, and context-aware.</p>
+</div>
+
+<div class="topic-card">
+  <h3>Sustainability and circularity</h3>
+  <p>Leveraging vision and generation to enable resource-conscious construction, renovation, and reuse of building components.</p>
+</div>
+
+<div class="topic-card">
+  <h3>Benchmarking and evaluation</h3>
+  <p>Introducing the Nothing Stands Still construction dataset and challenge on spatiotemporal 3D registration as a realistic testbed for evolving-scene understanding.</p>
+</div>
+
+</div>
 
 ---
 
-## :dart: **Topics** {#topics}
+<h2 class="section-heading section-heading--dates" id="dates">Important Dates</h2>
 
-- **Learning from change:** Vision-based modeling of evolving spaces/sites to capture temporal, geometric, and semantic changes across scales.
-- **Generative and predictive modeling:** Using construction-derived knowledge to propose design alternatives, predict project evolution, and support reuse and sustainability goals.
-- **Multimodal scene understanding:** Integrating 3D geometry, imagery, building sensors, and text-based project documentation for holistic understanding.
-- **Design-process feedback:** Translating as-built data into generative design prompts or constraints that make design more adaptive, data-informed, and context-aware.
-- **Sustainability and circularity:** Leveraging vision and generation to enable resource-conscious construction, renovation, and reuse of building components.
-- **Benchmarking and evaluation:** Introducing the Nothing Stands Still construction dataset and challenge on spatiotemporal 3D registration as a realistic testbed for evolving-scene understanding.
-
----
-
-## :hourglass_flowing_sand: **Important Dates** {#dates}
 > **NOTE**: The submission/release times are **11:59:59 UTC** on the specified date.
 
-<strong><u>Non-Archival Paper Submission (4 pages)</u></strong>
-- **11 May 2026 ---** Final decisions / Reviews sent
-- **15 Apr 2026 ---** Submission deadline
-- **15 Jan 2026 ---** Submissions open
+<div class="callout callout--registration" id="registration-notice">
+  <strong>Archival authors:</strong> Register for CVPR as an <strong>author</strong> before <strong>May 5</strong> or your paper will be removed from the proceedings. One registration covers up to three papers; additional papers each need a separate author registration. Non-archival papers do not require author registration. <a href="#papers">Details in Call for Papers</a>.
+</div>
 
-<strong><u>Nothing Stands Still Challenge</u></strong>
-- **3 Jun 2026 ---** CV4AEC Workshop @ CVPR 2026
-- **5 May 2026 ---** Notification of challenge winners
-- **30 Apr -- 4 May 2026 ---** Review & Evaluation
-- **30 Apr 2026 ---** Challenge submission deadline
-- **15 Feb 2026 ---** Submission window opens (evaluation server live)
-- **15 Jan 2026 ---** Dataset release & Registration opens
+<div class="timeline-section" id="dates-timeline">
 
-<strong><u>Archival Paper Submission (8 pages)</u></strong>
-- **10 Apr 2026 ---** Camera ready deadline
-- **24 Mar 2026 ---** Final decisions / Reviews sent
-- **15 Mar 2026 ---** Submission deadline
-- **15 Jan 2026 ---** Submissions open
+<div class="timeline-horizontal">
+
+<div class="timeline-item" data-date="2026-01-15">
+  <a class="timeline-tag timeline-tag--challenge" href="#challenge" target="_self">Challenge</a>
+  <p>Dataset Release</p>
+  <time>Jan 15, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-01-15">
+  <a class="timeline-tag timeline-tag--paper" href="#papers" target="_self">Papers</a>
+  <p>Submissions Open</p>
+  <time>Jan 15, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-02-15">
+  <a class="timeline-tag timeline-tag--challenge" href="#challenge" target="_self">Challenge</a>
+  <p>Evaluation Server</p>
+  <time>Feb 15, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-03-15">
+  <a class="timeline-tag timeline-tag--paper" href="#papers" target="_self">Papers</a>
+  <p>Archival Track Deadline</p>
+  <time>Mar 15, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-04-15">
+  <a class="timeline-tag timeline-tag--paper" href="#papers" target="_self">Papers</a>
+  <p>Non-Archival Track Deadline</p>
+  <time>Apr 15, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-04-30">
+  <a class="timeline-tag timeline-tag--challenge" href="#challenge" target="_self">Challenge</a>
+  <p>Challenge Submission Deadline</p>
+  <time>Apr 30, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-06-03" data-deadline-time="13:00" data-deadline-tz="America/Denver">
+  <a class="timeline-tag timeline-tag--workshop" href="#schedule" target="_self">Workshop</a>
+  <p>CV4AEC @ CVPR 2026</p>
+  <time datetime="2026-06-03">Jun 3, 2026</time>
+</div>
+
+</div>
+
+<div class="next-deadline-box">
+  <strong>Next deadline:</strong>
+  <span class="next-deadline-label"></span>
+  <span class="next-deadline-countdown"></span>
+  <span class="next-deadline-until"></span>
+</div>
+
+</div>
+
+<div class="dates-by-track">
+  <p class="dates-by-track__hint">Full deadline lists by track</p>
+
+  <details class="dates-track dates-track--archival" data-track="archival">
+    <summary class="dates-track__summary">
+      <span class="dates-track__badge">Archival</span>
+      Paper submission <span class="dates-track__meta">8 pages</span>
+    </summary>
+    <ol class="dates-track-list">
+      <li><time datetime="2026-01-15">Jan 15, 2026</time><span>Submissions open</span></li>
+      <li><time datetime="2026-03-15">Mar 15, 2026</time><span>Submission deadline</span></li>
+      <li><time datetime="2026-03-24">Mar 24, 2026</time><span>Final decisions / reviews sent</span></li>
+      <li><time datetime="2026-04-10">Apr 10, 2026</time><span>Camera-ready deadline</span></li>
+    </ol>
+  </details>
+
+  <details class="dates-track dates-track--non-archival" data-track="non-archival">
+    <summary class="dates-track__summary">
+      <span class="dates-track__badge">Non-Archival</span>
+      Paper submission <span class="dates-track__meta">4 pages</span>
+    </summary>
+    <ol class="dates-track-list">
+      <li><time datetime="2026-01-15">Jan 15, 2026</time><span>Submissions open</span></li>
+      <li><time datetime="2026-04-15">Apr 15, 2026</time><span>Submission deadline</span></li>
+      <li><time datetime="2026-05-11">May 11, 2026</time><span>Final decisions / reviews sent</span></li>
+    </ol>
+  </details>
+
+  <details class="dates-track dates-track--challenge" data-track="challenge">
+    <summary class="dates-track__summary">
+      <span class="dates-track__badge">Challenge</span>
+      Nothing Stands Still
+    </summary>
+    <ol class="dates-track-list">
+      <li><time datetime="2026-01-15">Jan 15, 2026</time><span>Dataset release &amp; registration opens</span></li>
+      <li><time datetime="2026-02-15">Feb 15, 2026</time><span>Submission window opens (evaluation server live)</span></li>
+      <li><time datetime="2026-04-30">Apr 30, 2026</time><span>Challenge submission deadline</span></li>
+      <li><time>Apr 30 – May 4, 2026</time><span>Review &amp; evaluation</span></li>
+      <li><time datetime="2026-05-05">May 5, 2026</time><span>Notification of challenge winners</span></li>
+      <li><time datetime="2026-06-03">Jun 3, 2026</time><span>CV4AEC workshop @ CVPR 2026</span></li>
+    </ol>
+  </details>
+</div>
 
 ---
 
-## :calendar: **Schedule** {#schedule}
-The workshop will take place on a **June 3rd, Room 109** as a **half-day in-person event (1pm - 6pm)**.
+<h2 class="section-heading section-heading--schedule" id="schedule">Schedule</h2>
+The workshop will take place on **June 3, Room 109** as a **half-day in-person event (1:00 PM – 6:00 PM)**.
 
+<div class="schedule-table-wrapper">
 
-| Time          | Duration  | Session                                                               |
-|---------------|-----------|-----------------------------------------------------------------------|
-| 1:00 -- 1:15  | 15 mins   | Welcome & Introduction                                                |
-| 1:15 -- 1:55  | 40 mins   | **Semiha Ergan**                                                         |
-| 1:55 -- 2:35  | 40 mins   | **Jia Deng**                                                         |
-| 2:35 -- 3:20  | 40 mins   | Challenge Winners Session        |
-| 3:20 -- 4:05  | 45 mins   | _Poster Session + Coffee Break_                                       |
-| 4:05 -- 4:45  | 40 mins   | **Debra Laefer**                                                         |
-| 4:45 -- 5:15  | 30 mins   | _Oral Presentations (Best papers)_                                                        |
-| 5:15 -- 5:55  | 30 mins   | **Huaizu Jiang**                                     |
-| 5:55 -- 6:00  | 10 mins | _Conclusion & Closing Remarks_                                        |
+<table class="schedule-table">
+<thead>
+<tr>
+<th>Time</th>
+<th>Session</th>
+</tr>
+</thead>
+<tbody>
+<tr class="schedule-row schedule-row--welcome">
+<td>1:00 – 1:15</td>
+<td>Welcome &amp; Introduction</td>
+</tr>
+<tr class="schedule-row schedule-row--keynote">
+<td>1:15 – 1:55</td>
+<td><span class="schedule-label">Keynote</span> <strong><a href="#speaker-semiha-ergan">Semiha Ergan</a></strong> <span class="schedule-meta">NYU</span></td>
+</tr>
+<tr class="schedule-row schedule-row--keynote">
+<td>1:55 – 2:35</td>
+<td><span class="schedule-label">Keynote</span> <strong><a href="#speaker-jia-deng">Jia Deng</a></strong> <span class="schedule-meta">Princeton</span></td>
+</tr>
+<tr class="schedule-row schedule-row--challenge">
+<td>2:35 – 3:20</td>
+<td><span class="schedule-label">Challenge</span> Challenge Winners Session</td>
+</tr>
+<tr class="schedule-row schedule-row--break">
+<td>3:20 – 4:05</td>
+<td><span class="schedule-label">Break</span> Poster Session + Coffee Break</td>
+</tr>
+<tr class="schedule-row schedule-row--keynote">
+<td>4:05 – 4:45</td>
+<td><span class="schedule-label">Keynote</span> <strong><a href="#speaker-debra-laefer">Debra Laefer</a></strong> <span class="schedule-meta">NYU</span></td>
+</tr>
+<tr class="schedule-row schedule-row--oral">
+<td>4:45 – 5:15</td>
+<td><span class="schedule-label">Oral</span> Best Paper Presentations — <a href="#accepted-papers">accepted papers</a></td>
+</tr>
+<tr class="schedule-row schedule-row--keynote">
+<td>5:15 – 5:55</td>
+<td><span class="schedule-label">Keynote</span> <strong><a href="#speaker-huaizu-jiang">Huaizu Jiang</a></strong> <span class="schedule-meta">Northeastern</span></td>
+</tr>
+<tr class="schedule-row schedule-row--welcome">
+<td>5:55 – 6:00</td>
+<td>Conclusion &amp; Closing Remarks</td>
+</tr>
+</tbody>
+</table>
+
+</div>
 
 ---
 
-## :microphone: **Keynote Speakers** {#speakers}
+<h2 class="section-heading section-heading--speakers" id="speakers">Keynote Speakers</h2>
 
-<div class="container">
+<nav class="speaker-jump-nav" aria-label="Jump to speaker bio">
+  <a href="#speaker-semiha-ergan">Semiha Ergan</a>
+  <a href="#speaker-jia-deng">Jia Deng</a>
+  <a href="#speaker-debra-laefer">Debra Laefer</a>
+  <a href="#speaker-huaizu-jiang">Huaizu Jiang</a>
+</nav>
 
-<figure>
-    <a href="https://www.cs.princeton.edu/~jiadeng/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2026/jiadeng.png" alt="Jia Deng"/></a>
+<div class="container speakers-grid">
+
+<figure class="speaker-card">
+    <a href="#speaker-jia-deng" class="speaker-card__photo" target="_self">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/jiadeng.png" width="140" height="140" loading="lazy" alt="Jia Deng"/></a>
     <b><br><a href="https://www.cs.princeton.edu/~jiadeng/">Jia Deng</a>
     <br>Professor, CS <br>Princeton</b>
 </figure>
 
-<figure>
-    <a href="https://engineering.nyu.edu/faculty/semiha-ergan">
-    <img class="img-author" src="assets/imgs/authors/cvpr2026/semihaergan.png" alt="Semiha Ergan"/></a>
+<figure class="speaker-card">
+    <a href="#speaker-semiha-ergan" class="speaker-card__photo" target="_self">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/semihaergan.png" width="140" height="140" loading="lazy" alt="Semiha Ergan"/></a>
     <b><br><a href="https://engineering.nyu.edu/faculty/semiha-ergan">Semiha Ergan</a>
     <br>Professor, CEE & CSE <br>NYU</b>
 </figure>
 
-<figure>
-    <a href="https://jianghz.me/">
-    <img class="img-author" src="assets/imgs/authors/cvpr2026/huaizujiang.png" alt="Huaizu Jiang"/></a>
+<figure class="speaker-card">
+    <a href="#speaker-huaizu-jiang" class="speaker-card__photo" target="_self">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/huaizujiang.png" width="140" height="140" loading="lazy" alt="Huaizu Jiang"/></a>
     <b><br><a href="https://jianghz.me/">Huaizu Jiang</a>
     <br>Assistant Professor, CS <br>Northeastern</b>
 </figure>
 
-<figure>
-    <a href="https://engineering.nyu.edu/faculty/debra-laefer">
-    <img class="img-author" src="assets/imgs/authors/cvpr2026/debralaefer.png" alt="Debra Laefer"/></a>
+<figure class="speaker-card">
+    <a href="#speaker-debra-laefer" class="speaker-card__photo" target="_self">
+    <img class="img-author" src="assets/imgs/authors/cvpr2026/debralaefer.png" width="140" height="140" loading="lazy" alt="Debra Laefer"/></a>
     <b><br><a href="https://engineering.nyu.edu/faculty/debra-laefer">Debra Laefer</a>
     <br>Professor, Urban Informatics <br>NYU</b>
 </figure>
 
 </div>
 
-[**Jia Deng**](https://www.cs.princeton.edu/~jiadeng/)
-is a Professor of Computer Science at Princeton University. His research focuses on computer vision and machine learning. He received his Ph.D. from Princeton University and his B.Eng. from Tsinghua University, both in computer science. He is a recipient of the Sloan Research Fellowship, the NSF CAREER award, the ONR Young Investigator award, an ICCV Marr Prize, a CVPR test-of-time award and two ECCV Best Paper Awards. His recent work demonstrates how procedural and generative approaches can create complex, realistic indoor scenes, bridging vision research and design.
+<div class="speaker-bios">
 
-[**Semiha Ergan**](https://engineering.nyu.edu/faculty/semiha-ergan)
-is a faculty member at the Department of Civil and Urban Engineering and Computer Science and Engineering at New York University, and an associated faculty at the Center for Urban Science and Progress (CUSP). With her background in civil engineering, AI and informatics, she leads the Building Informatics and Visualization Lab (biLAB) at NYU Tandon School of Engineering. BiLAB specializes in utilizing cutting-edge AI and sensing technologies to tackle challenges observed during the design, construction, and operation of facilities. The research team detects, quantifies, and visualizes patterns over time, leveraging data obtained from reality capture technologies (e.g., cameras, laser scanners) and embedded sensing. By exploiting the intersection of BIM, AI, robotics, and manufacturing processes, the lab enhances the scalability and efficiency of construction methods, particularly in modular construction contexts. Her work has been supported by DOE BTO, various programs of NSF, DARPA, and private organizations. Her achievements include NYU's 2023 Distinguished Teacher Award, 2024 Inclusive Excellence Award, and 2015 DARPA Young Faculty Award.
+<p id="speaker-jia-deng" class="speaker-bio"><a href="https://www.cs.princeton.edu/~jiadeng/"><strong>Jia Deng</strong></a>
+is a Professor of Computer Science at Princeton University. His research focuses on computer vision and machine learning. He received his Ph.D. from Princeton University and his B.Eng. from Tsinghua University, both in computer science. He is a recipient of the Sloan Research Fellowship, the NSF CAREER award, the ONR Young Investigator award, an ICCV Marr Prize, a CVPR test-of-time award and two ECCV Best Paper Awards. His recent work demonstrates how procedural and generative approaches can create complex, realistic indoor scenes, bridging vision research and design.</p>
 
-[**Huaizu Jiang**](https://jianghz.me/)
-is an assistant professor in the Khoury College of Computer Sciences at Northeastern University. His research interests include computer vision, computational photography, machine learning, natural language processing, and artificial intelligence. Prior to joining Northeastern University, he was a Postdoc Researcher at Caltech and a Visiting Researcher at NVIDIA. He obtained his Ph.D. from UMass Amherst, advised by Prof. Erik Learned-Miller. His awards include the 2019-2020 NVIDIA Graduate Fellowship, 2019 Adobe Fellowship, and 2018 Outstanding Reviewer at IEEE/CVF CVPR. His recent work demonstrates how generative vision models can transform 2D building plans into realistic 3D environments, bridging perception and design.
+<p id="speaker-semiha-ergan" class="speaker-bio"><a href="https://engineering.nyu.edu/faculty/semiha-ergan"><strong>Semiha Ergan</strong></a>
+is a faculty member at the Department of Civil and Urban Engineering and Computer Science and Engineering at New York University, and an associated faculty at the Center for Urban Science and Progress (CUSP). With her background in civil engineering, AI and informatics, she leads the Building Informatics and Visualization Lab (biLAB) at NYU Tandon School of Engineering. BiLAB specializes in utilizing cutting-edge AI and sensing technologies to tackle challenges observed during the design, construction, and operation of facilities. The research team detects, quantifies, and visualizes patterns over time, leveraging data obtained from reality capture technologies (e.g., cameras, laser scanners) and embedded sensing. By exploiting the intersection of BIM, AI, robotics, and manufacturing processes, the lab enhances the scalability and efficiency of construction methods, particularly in modular construction contexts. Her work has been supported by DOE BTO, various programs of NSF, DARPA, and private organizations. Her achievements include NYU's 2023 Distinguished Teacher Award, 2024 Inclusive Excellence Award, and 2015 DARPA Young Faculty Award.</p>
 
-[**Debra Laefer**](https://engineering.nyu.edu/faculty/debra-laefer)
-is a Full Professor of Urban Informatics, jointly appointed at New York University's Center for Urban Science and Progress and its Department of Civil and Urban Engineering. With degrees from the University of Illinois Urbana-Champaign (MS, Ph.D.), NYU (MEng), and Columbia University (BS, BA), Prof. Laefer has a wide-ranging urban research background applied through the lens of remote sensing, civil engineering, and historic preservation. Her work often stands at the cross-roads of technology creation and community values such as devising technical solutions for protecting architecturally significant buildings from subsurface construction and subsurface utility network generation. Prof. Laefer and her Urban Modeling Group pioneer computationally efficient storage, querying, and visualization strategies that harness distributed computing-based solutions and bridge the gap between LiDAR and hyperspectral data availability and its usability for the engineering community.
+<p id="speaker-huaizu-jiang" class="speaker-bio"><a href="https://jianghz.me/"><strong>Huaizu Jiang</strong></a>
+is an assistant professor in the Khoury College of Computer Sciences at Northeastern University. His research interests include computer vision, computational photography, machine learning, natural language processing, and artificial intelligence. Prior to joining Northeastern University, he was a Postdoc Researcher at Caltech and a Visiting Researcher at NVIDIA. He obtained his Ph.D. from UMass Amherst, advised by Prof. Erik Learned-Miller. His awards include the 2019-2020 NVIDIA Graduate Fellowship, 2019 Adobe Fellowship, and 2018 Outstanding Reviewer at IEEE/CVF CVPR. His recent work demonstrates how generative vision models can transform 2D building plans into realistic 3D environments, bridging perception and design.</p>
 
----
+<p id="speaker-debra-laefer" class="speaker-bio"><a href="https://engineering.nyu.edu/faculty/debra-laefer"><strong>Debra Laefer</strong></a>
+is a Full Professor of Urban Informatics, jointly appointed at New York University's Center for Urban Science and Progress and its Department of Civil and Urban Engineering. With degrees from the University of Illinois Urbana-Champaign (MS, Ph.D.), NYU (MEng), and Columbia University (BS, BA), Prof. Laefer has a wide-ranging urban research background applied through the lens of remote sensing, civil engineering, and historic preservation. Her work often stands at the cross-roads of technology creation and community values such as devising technical solutions for protecting architecturally significant buildings from subsurface construction and subsurface utility network generation. Prof. Laefer and her Urban Modeling Group pioneer computationally efficient storage, querying, and visualization strategies that harness distributed computing-based solutions and bridge the gap between LiDAR and hyperspectral data availability and its usability for the engineering community.</p>
 
-## :school: **Accepted Papers** {#accepted-papers}
-
-### Archival
-
-1. <strong>BridgeCode: Grammar-Constrained Scan-to-Program Bridge Reconstruction for As-Built-to-As-Designed Feedback</strong> <span class="p-award">Oral</span> <br>
-Takayuki Shinohara, Hidetaka Saomoto, J-katagiri
-
-2. <strong>Building-Diffusion: Graph Discrete Diffusion Model For Architectural Volumetric Design Generation</strong> <span class="p-award">Oral</span> <br>
-Mohammed El Amine Sehaba, Igor Krawczuk, Serge Miguet, Xavier MARSAULT
-
-3. <strong>EgoWorkPM: A Worker-Centric Approach for Activity-level Progress Monitoring in Construction via Egocentric Vision</strong> <br>
-Christine Wun Ki Suen, Zhengbo Zou
-
-4. <strong>USIVA: Uncertainty-guided Spatiotemporal Mapping for Indoor Ventilation Assessment</strong> <br>
-Weijia Cai, Zhengbo Zou
-
-### Non-Archival
-
-1. <strong>Rethinking Infrastructure Inspection as Image Difference Classification: A Traffic Sign Case Study</strong> <br>
-Ching Yau Fergus Mok, Lavindra de Silva, Varun Kumar Reja, Ioannis Brilakis
-
-2. <strong>UAV-Assisted Scan-to-Simulation for Landslides Using Physics-Informed Gaussian Splatting</strong> <span class="p-award">Oral</span> <br>
-Zhenyu Liang, Jack C.P. Cheng
+</div>
 
 ---
 
-## :paperclip: **Call for Papers** {#papers}
+<h2 class="section-heading section-heading--papers-accepted" id="accepted-papers">Accepted Papers</h2>
+
+<div class="papers-section">
+
+<div class="paper-track-card paper-track-card--archival">
+  <span class="paper-track-card__label">Archival</span>
+  <ul class="papers-list">
+    <li class="paper-entry">
+      <p class="paper-entry__title">BridgeCode: Grammar-Constrained Scan-to-Program Bridge Reconstruction for As-Built-to-As-Designed Feedback <span class="p-award">Oral</span></p>
+      <p class="paper-entry__authors">Takayuki Shinohara, Hidetaka Saomoto, J-katagiri</p>
+    </li>
+    <li class="paper-entry">
+      <p class="paper-entry__title">Building-Diffusion: Graph Discrete Diffusion Model For Architectural Volumetric Design Generation <span class="p-award">Oral</span></p>
+      <p class="paper-entry__authors">Mohammed El Amine Sehaba, Igor Krawczuk, Serge Miguet, Xavier MARSAULT</p>
+    </li>
+    <li class="paper-entry">
+      <p class="paper-entry__title">EgoWorkPM: A Worker-Centric Approach for Activity-level Progress Monitoring in Construction via Egocentric Vision</p>
+      <p class="paper-entry__authors">Christine Wun Ki Suen, Zhengbo Zou</p>
+    </li>
+    <li class="paper-entry">
+      <p class="paper-entry__title">USIVA: Uncertainty-guided Spatiotemporal Mapping for Indoor Ventilation Assessment</p>
+      <p class="paper-entry__authors">Weijia Cai, Zhengbo Zou</p>
+    </li>
+  </ul>
+</div>
+
+<div class="paper-track-card paper-track-card--non-archival">
+  <span class="paper-track-card__label">Non-Archival</span>
+  <ul class="papers-list">
+    <li class="paper-entry">
+      <p class="paper-entry__title">Rethinking Infrastructure Inspection as Image Difference Classification: A Traffic Sign Case Study</p>
+      <p class="paper-entry__authors">Ching Yau Fergus Mok, Lavindra de Silva, Varun Kumar Reja, Ioannis Brilakis</p>
+    </li>
+    <li class="paper-entry">
+      <p class="paper-entry__title">UAV-Assisted Scan-to-Simulation for Landslides Using Physics-Informed Gaussian Splatting <span class="p-award">Oral</span></p>
+      <p class="paper-entry__authors">Zhenyu Liang, Jack C.P. Cheng</p>
+    </li>
+  </ul>
+</div>
+
+</div>
+
+---
+
+<h2 class="section-heading section-heading--papers-cfp" id="papers">Call for Papers</h2>
 
 We invite submissions exploring the intersection of Computer Vision and the Built Environment, focusing on applications that transform how we understand, model, and design buildings and construction sites. Construction sites and building lifecycles are dynamic, complex, and data-rich, providing an ideal real-world testbed for advancing computer vision methods while generating actionable insights for design, sustainability, and circular practices.
 
-Submission links: **[Archival Track (OpenReview)](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Archival_Track#tab-recent-activity)** --- **[Non-Archival Track (OpenReview)](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Non-archival_Track)**
+<div class="submission-actions">
+  <a class="submission-btn submission-btn--archival" href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Archival_Track#tab-recent-activity">Submit — Archival Track (8 pages)</a>
+  <a class="submission-btn submission-btn--nonarchival" href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4AEC_Non-archival_Track">Submit — Non-Archival Track (4 pages)</a>
+</div>
 
 Submissions should follow the CVPR 2026 Author Kit: **[CVPR 2026 Author Guidelines](https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines)**
 
@@ -183,18 +367,15 @@ We also accept papers submitted to the main conference and accepted as long non-
 
 Each submission will be reviewed by at least two program committee members, chosen to provide complementary expertise across computer vision and AEC domains.
 
-> **IMPORTANT**: All archival paper authors MUST register for the conference as an AUTHOR before May 5th or their paper will be eliminated from the proceedings. One registration can cover up to three papers only. If you have more than three papers, including workshop papers, you must have a separate author register for that paper. Non-archival papers do not need to be captured under an author registration.
+See the <a href="#registration-notice">archival author registration requirement</a> under Important Dates.
 
 ---
 
-## :checkered_flag: **Nothing Stands Still Challenge** {#challenge}
+<h2 class="section-heading section-heading--challenge" id="challenge">Nothing Stands Still Challenge</h2>
 
 The workshop will host the **2026 Nothing Stands Still (NSS) Dataset Challenge**, introducing a unique real-world testbed for computer vision research. Previously run as part of a robotics conference workshop, the NSS challenge is now joining the computer vision community for the first time, reflecting its relevance for understanding complex, dynamic environments at scale. Full details from prior challenges are available at: **[nothing-stands-still.com/challenge](https://nothing-stands-still.com/challenge)**
 
 The challenge focuses on **spatiotemporal 3D point cloud registration** of evolving construction sites, which feature dramatic changes in geometry, topology, and appearance over time. These dynamic environments make construction sites an ideal testbed for cutting-edge computer vision tasks, including scene reconstruction, semantic understanding, predictive modeling, and temporal reasoning. To expand the scope of the challenge, we aim to add semantic annotations, enabling participants to reason not only about geometry but also about functional elements, building components, and how they evolve over time.
-
-<!-- ![NSS Benchmark](assets/imgs/nss_benchmark.png) -->
-<!-- *Figure 1. The Nothing Stands Still benchmark evaluates both pairwise and multi-way spatiotemporal 3D point cloud registration.* -->
 
 ### Evaluation
 
@@ -203,15 +384,56 @@ The challenge focuses on **spatiotemporal 3D point cloud registration** of evolv
 
 ### Challenge Timeline
 
-| Milestone | Date |
-|-----------|------|
-| Workshop Presentation & Awards | June 3, 2026 |
-| Notification of Challenge Winners | May 5, 2026 |
-| Review & Evaluation | April 30 -- May 4, 2026 |
-| Submission Deadline | April 30, 2026 |
-| Submission Window Opens (evaluation server live) | February 15, 2026 |
-| Dataset Release & Registration Opens | January 15, 2026 |
+<div class="timeline-section">
 
+<div class="timeline-horizontal">
+
+<div class="timeline-item" data-date="2026-01-15">
+  <span class="timeline-tag timeline-tag--challenge">Registration</span>
+  <p>Dataset Release &amp; Registration</p>
+  <time>Jan 15, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-02-15">
+  <span class="timeline-tag timeline-tag--challenge">Submissions</span>
+  <p>Evaluation Server Live</p>
+  <time>Feb 15, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-04-30">
+  <span class="timeline-tag timeline-tag--challenge">Deadline</span>
+  <p>Submission Deadline</p>
+  <time>Apr 30, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-05-04">
+  <span class="timeline-tag timeline-tag--challenge">Review</span>
+  <p>Review &amp; Evaluation</p>
+  <time>Apr 30 – May 4, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-05-05">
+  <span class="timeline-tag timeline-tag--challenge">Winners</span>
+  <p>Winners Notification</p>
+  <time>May 5, 2026</time>
+</div>
+
+<div class="timeline-item" data-date="2026-06-03" data-deadline-time="13:00" data-deadline-tz="America/Denver">
+  <span class="timeline-tag timeline-tag--workshop">Workshop</span>
+  <p>Presentation &amp; Awards</p>
+  <time datetime="2026-06-03">Jun 3, 2026</time>
+</div>
+
+</div>
+
+<div class="next-deadline-box">
+  <strong>Next deadline:</strong>
+  <span class="next-deadline-label"></span>
+  <span class="next-deadline-countdown"></span>
+  <span class="next-deadline-until"></span>
+</div>
+
+</div>
 
 > **Ethical Note:** All construction sites in the dataset are located in North America, which may limit the generalization of models trained on this data. Participants are encouraged to consider methods for robust and fair modeling across varied environments.
 
@@ -219,66 +441,67 @@ By combining dynamic geometry, large-scale scene evolution, and future semantic 
 
 ---
 
-## :question: **Questions** {#questions}
+<h2 class="section-heading section-heading--questions" id="questions">Questions</h2>
 Contact the organisers at **[cv4aec.3d@gmail.com](mailto:cv4aec.3d@gmail.com)**
 
 ---
 
-# **Organizers** {#organizers}
-<div class="container">
+<h2 class="section-heading section-heading--organizers" id="organizers">Organizers</h2>
 
-<figure>
+<div class="container speakers-grid">
+
+<figure class="speaker-card">
     <a href="https://ir0.github.io/">
-    <img class="img-author" src="assets/imgs/authors/organizers/iroarmeni.jpg" alt="Iro Armeni"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/iroarmeni.jpg" width="140" height="140" loading="lazy" alt="Iro Armeni"/></a>
     <b><br><a href="https://ir0.github.io/">Iro Armeni</a>
     <br>Assistant Professor <br>Stanford</b>
 </figure>
 
-<figure>
+<figure class="speaker-card">
     <a href="http://web.engr.oregonstate.edu/~lif/">
-    <img class="img-author" src="assets/imgs/authors/organizers/fuxinli.jpg" alt="Fuxin Li"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/fuxinli.jpg" width="140" height="140" loading="lazy" alt="Fuxin Li"/></a>
     <b><br><a href="http://web.engr.oregonstate.edu/~lif/">Fuxin Li</a>
     <br>Associate Professor <br>Oregon State</b>
 </figure>
 
-<figure>
+<figure class="speaker-card">
     <a href="https://cce.oregonstate.edu/olsen">
-    <img class="img-author" src="assets/imgs/authors/organizers/michaelolsen.jpg" alt="Michael Olsen"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/michaelolsen.jpg" width="140" height="140" loading="lazy" alt="Michael Olsen"/></a>
     <b><br><a href="https://cce.oregonstate.edu/olsen">Michael Olsen</a>
     <br>Dean's Professor <br>Oregon State</b>
 </figure>
 
-<figure>
+<figure class="speaker-card">
     <a href="https://people.inf.ethz.ch/pomarc/">
-    <img class="img-author" src="assets/imgs/authors/organizers/marcpollefeys.jpeg" alt="Marc Pollefeys"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/marcpollefeys.jpeg" width="140" height="140" loading="lazy" alt="Marc Pollefeys"/></a>
     <b><br><a href="https://people.inf.ethz.ch/pomarc/">Marc Pollefeys</a>
     <br>Professor <br>ETH Zurich</b>
 </figure>
 
-<figure>
+<figure class="speaker-card">
     <a href="https://engineering.oregonstate.edu/people/yelda-turkan">
-    <img class="img-author" src="assets/imgs/authors/organizers/yeldaturkan.jpg" alt="Yelda Turkan"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/yeldaturkan.jpg" width="140" height="140" loading="lazy" alt="Yelda Turkan"/></a>
     <b><br><a href="https://engineering.oregonstate.edu/people/yelda-turkan">Yelda Turkan</a>
     <br>Associate Professor <br>Oregon State</b>
 </figure>
 
-<figure>
+<figure class="speaker-card">
     <a href="https://sayands.github.io/">
-    <img class="img-author" src="assets/imgs/authors/organizers/sayandebsarkar.jpg" alt="Sayan Deb Sarkar"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/sayandebsarkar.jpg" width="140" height="140" loading="lazy" alt="Sayan Deb Sarkar"/></a>
     <b><br><a href="https://sayands.github.io/">Sayan Deb Sarkar</a>
     <br>PhD <br>Stanford</b>
 </figure>
 
-<figure>
-    <a href="#">
-    <img class="img-author" src="assets/imgs/authors/organizers/emilysteiner.jpg" alt="Emily Steiner"/></a>
+<figure class="speaker-card">
+    <a href="https://www.easteine.com/">
+    <img class="img-author" src="assets/imgs/authors/organizers/emilysteiner.jpg" width="140" height="140" loading="lazy" alt="Emily Steiner"/></a>
     <b><br><a href="https://www.easteine.com/">Emily Steiner</a>
     <br>PhD <br>Stanford</b>
 </figure>
 
-<figure>
+<figure class="speaker-card">
     <a href="https://taosun.io">
-    <img class="img-author" src="assets/imgs/authors/organizers/taosun.jpg" alt="Tao Sun"/></a>
+    <img class="img-author" src="assets/imgs/authors/organizers/taosun.jpg" width="140" height="140" loading="lazy" alt="Tao Sun"/></a>
     <b><br><a href="https://taosun.io">Tao Sun</a>
     <br>PhD <br>Stanford</b>
 </figure>

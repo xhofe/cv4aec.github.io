@@ -1,0 +1,48 @@
+{% assign on_latest = page.path == 'index.md' or page.url == '/' or page.url == '/index.html' %}
+{% assign on_2024 = page.path == 'cvpr2024.md' %}
+{% assign on_2023 = page.path == 'cvpr2023.md' %}
+{% assign on_2022 = page.path == 'cvpr2022.md' %}
+{% assign on_2021 = page.path == 'cvpr2021.md' %}
+{% assign on_past = on_2024 or on_2023 or on_2022 or on_2021 %}
+
+{% if include.variant == 'sticky' %}
+<nav class="sticky-nav__archives" aria-label="Workshop editions">
+  <a href="{{ site.baseurl }}/index" class="sticky-nav__link sticky-nav__link--archive{% if on_latest %} is-active{% endif %}" target="_self">Latest</a>
+  <div class="archive-dropdown archive-dropdown--sticky{% if on_past %} archive-dropdown--active{% endif %}" data-archive-dropdown>
+    <button type="button" class="sticky-nav__link sticky-nav__link--archive archive-dropdown__toggle" aria-expanded="false" aria-haspopup="true" aria-controls="archive-menu-sticky">Past Editions</button>
+    <div id="archive-menu-sticky" class="archive-dropdown__menu" role="menu" aria-hidden="true">
+      <a href="{{ site.baseurl }}/cvpr2024" class="archive-dropdown__link{% if on_2024 %} is-active{% endif %}" role="menuitem" target="_self">CVPR 2024</a>
+      <a href="{{ site.baseurl }}/cvpr2023" class="archive-dropdown__link{% if on_2023 %} is-active{% endif %}" role="menuitem" target="_self">CVPR 2023</a>
+      <a href="{{ site.baseurl }}/cvpr2022" class="archive-dropdown__link{% if on_2022 %} is-active{% endif %}" role="menuitem" target="_self">CVPR 2022</a>
+      <a href="{{ site.baseurl }}/cvpr2021" class="archive-dropdown__link{% if on_2021 %} is-active{% endif %}" role="menuitem" target="_self">CVPR 2021</a>
+    </div>
+  </div>
+</nav>
+{% elsif include.variant == 'footer' %}
+<nav class="site-footer-archives" aria-label="Workshop editions">
+  <a href="{{ site.baseurl }}/index"{% if on_latest %} aria-current="page"{% endif %}>Latest</a>
+  <span class="site-footer-archives__sep" aria-hidden="true">·</span>
+  <div class="archive-dropdown archive-dropdown--footer{% if on_past %} archive-dropdown--active{% endif %}" data-archive-dropdown>
+    <button type="button" class="archive-dropdown__toggle" aria-expanded="false" aria-haspopup="true" aria-controls="archive-menu-footer">Past Editions</button>
+    <div id="archive-menu-footer" class="archive-dropdown__menu" role="menu" aria-hidden="true">
+      <a href="{{ site.baseurl }}/cvpr2024" role="menuitem"{% if on_2024 %} aria-current="page"{% endif %}>CVPR 2024</a>
+      <a href="{{ site.baseurl }}/cvpr2023" role="menuitem"{% if on_2023 %} aria-current="page"{% endif %}>CVPR 2023</a>
+      <a href="{{ site.baseurl }}/cvpr2022" role="menuitem"{% if on_2022 %} aria-current="page"{% endif %}>CVPR 2022</a>
+      <a href="{{ site.baseurl }}/cvpr2021" role="menuitem"{% if on_2021 %} aria-current="page"{% endif %}>CVPR 2021</a>
+    </div>
+  </div>
+</nav>
+{% else %}
+<nav class="archives-nav" aria-label="Workshop editions">
+  <a href="{{ site.baseurl }}/index" class="btn btn--archive{% if on_latest %} is-active{% endif %}" target="_self">Latest</a>
+  <div class="archive-dropdown{% if on_past %} archive-dropdown--active{% endif %}" data-archive-dropdown>
+    <button type="button" class="btn btn--archive archive-dropdown__toggle" aria-expanded="false" aria-haspopup="true" aria-controls="archive-menu-header">Past Editions</button>
+    <div id="archive-menu-header" class="archive-dropdown__menu" role="menu" aria-hidden="true">
+      <a href="{{ site.baseurl }}/cvpr2024" class="archive-dropdown__link{% if on_2024 %} is-active{% endif %}" role="menuitem" target="_self">CVPR 2024</a>
+      <a href="{{ site.baseurl }}/cvpr2023" class="archive-dropdown__link{% if on_2023 %} is-active{% endif %}" role="menuitem" target="_self">CVPR 2023</a>
+      <a href="{{ site.baseurl }}/cvpr2022" class="archive-dropdown__link{% if on_2022 %} is-active{% endif %}" role="menuitem" target="_self">CVPR 2022</a>
+      <a href="{{ site.baseurl }}/cvpr2021" class="archive-dropdown__link{% if on_2021 %} is-active{% endif %}" role="menuitem" target="_self">CVPR 2021</a>
+    </div>
+  </div>
+</nav>
+{% endif %}
