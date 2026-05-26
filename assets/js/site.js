@@ -116,6 +116,12 @@ document.addEventListener("DOMContentLoaded", () => {
     .filter(Boolean);
 
   if (sections.length && navLinks.length) {
+    const scrollStickyNavToActive = () => {
+      if (!stickyNavSections || window.matchMedia("(min-width: 42em)").matches) return;
+      const active = stickyNavSections.querySelector(".sticky-nav__link.is-active");
+      active?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    };
+
     const setActive = id => {
       navLinks.forEach(link => {
         const active = link.getAttribute("href") === `#${id}`;
@@ -123,6 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (active) link.setAttribute("aria-current", "location");
         else link.removeAttribute("aria-current");
       });
+      scrollStickyNavToActive();
     };
 
     const sectionObserver = new IntersectionObserver(
