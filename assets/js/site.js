@@ -85,14 +85,23 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (pageHeader && stickyNav) {
+    const syncStickyScrollOffset = () => {
+      if (stickyNav.hidden) return;
+      const height = stickyNav.getBoundingClientRect().height;
+      document.documentElement.style.setProperty("--scroll-offset-sticky", `${Math.ceil(height + 8)}px`);
+    };
+
     const headerObserver = new IntersectionObserver(
       ([entry]) => {
         stickyNav.hidden = entry.isIntersecting;
         document.body.classList.toggle("sticky-nav-visible", !entry.isIntersecting);
+        if (!entry.isIntersecting) syncStickyScrollOffset();
       },
       { threshold: 0, rootMargin: "0px 0px 0px 0px" }
     );
     headerObserver.observe(pageHeader);
+
+    window.addEventListener("resize", syncStickyScrollOffset, { passive: true });
   }
 
   // Active section highlight in header + sticky nav

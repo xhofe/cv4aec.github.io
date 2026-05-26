@@ -367,8 +367,6 @@ We also accept papers submitted to the main conference and accepted as long non-
 
 Each submission will be reviewed by at least two program committee members, chosen to provide complementary expertise across computer vision and AEC domains.
 
-See the <a href="#registration-notice">archival author registration requirement</a> under Important Dates.
-
 ---
 
 <h2 class="section-heading section-heading--challenge" id="challenge">Nothing Stands Still Challenge</h2>
