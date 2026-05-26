@@ -127,6 +127,32 @@ is a Full Professor of Urban Informatics, jointly appointed at New York Universi
 
 ---
 
+## :school: **Accepted Papers** {#accepted-papers}
+
+### Archival
+
+1. <strong>BridgeCode: Grammar-Constrained Scan-to-Program Bridge Reconstruction for As-Built-to-As-Designed Feedback</strong> <span class="p-award">Oral</span> <br>
+Takayuki Shinohara, Hidetaka Saomoto, J-katagiri
+
+2. <strong>Building-Diffusion: Graph Discrete Diffusion Model For Architectural Volumetric Design Generation</strong> <span class="p-award">Oral</span> <br>
+Mohammed El Amine Sehaba, Igor Krawczuk, Serge Miguet, Xavier MARSAULT
+
+3. <strong>EgoWorkPM: A Worker-Centric Approach for Activity-level Progress Monitoring in Construction via Egocentric Vision</strong> <br>
+Christine Wun Ki Suen, Zhengbo Zou
+
+4. <strong>USIVA: Uncertainty-guided Spatiotemporal Mapping for Indoor Ventilation Assessment</strong> <br>
+Weijia Cai, Zhengbo Zou
+
+### Non-Archival
+
+1. <strong>Rethinking Infrastructure Inspection as Image Difference Classification: A Traffic Sign Case Study</strong> <br>
+Ching Yau Fergus Mok, Lavindra de Silva, Varun Kumar Reja, Ioannis Brilakis
+
+2. <strong>UAV-Assisted Scan-to-Simulation for Landslides Using Physics-Informed Gaussian Splatting</strong> <span class="p-award">Oral</span> <br>
+Zhenyu Liang, Jack C.P. Cheng
+
+---
+
 ## :paperclip: **Call for Papers** {#papers}
 
 We invite submissions exploring the intersection of Computer Vision and the Built Environment, focusing on applications that transform how we understand, model, and design buildings and construction sites. Construction sites and building lifecycles are dynamic, complex, and data-rich, providing an ideal real-world testbed for advancing computer vision methods while generating actionable insights for design, sustainability, and circular practices.

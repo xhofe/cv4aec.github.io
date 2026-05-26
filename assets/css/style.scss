@@ -54,3 +54,17 @@ a {
 .best {
   color: blue
 }
+
+.p-award {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+  margin-left: 0.35em;
+  letter-spacing: 0.02em;
+}
