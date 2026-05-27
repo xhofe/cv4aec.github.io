@@ -48,11 +48,15 @@
         {% if page.path == 'cvpr2024.md' %}
         <a href="#news" class="btn" target="_self">News</a>
         {% endif %}
+        {% unless page.path == 'index.md' or page.url == '/' or page.url == '/index.html' %}
         <a href="#dates" class="btn" target="_self">Important Dates</a>
+        {% endunless %}
         <a href="#schedule" class="btn" target="_self">Schedule</a>
         <a href="#speakers" class="btn" target="_self">Keynote Speakers</a>
         {% unless page.path == "cvpr2021.md" or page.path == "cvpr2022.md" or page.path == "cvpr2023.md" %}
         <a href="#accepted-papers" class="btn" target="_self">Accepted Papers</a>
+        {% endunless %}
+        {% unless page.path == 'index.md' or page.url == '/' or page.url == '/index.html' or page.path == "cvpr2021.md" or page.path == "cvpr2022.md" or page.path == "cvpr2023.md" %}
         <a href="#papers" class="btn" target="_self">Call for Papers</a>
         {% endunless %}
         <a href="#challenge" class="btn" target="_self">Challenge</a>
