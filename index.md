@@ -206,7 +206,7 @@ The workshop will take place on **June 3, Room 109** as a **half-day in-person e
 </tr>
 <tr class="schedule-row schedule-row--break">
 <td>3:20 – 4:05</td>
-<td><span class="schedule-label">Break</span> Poster Session + Coffee Break</td>
+<td><span class="schedule-label">Break</span> Poster Session (Exhibit Hall A, posters #197–202) + Coffee Break</td>
 </tr>
 <tr class="schedule-row schedule-row--keynote">
 <td>4:05 – 4:45</td>
@@ -300,18 +300,22 @@ is a Full Professor of Urban Informatics, jointly appointed at New York Universi
     <li class="paper-entry">
       <p class="paper-entry__title">BridgeCode: Grammar-Constrained Scan-to-Program Bridge Reconstruction for As-Built-to-As-Designed Feedback <span class="p-award">Oral</span></p>
       <p class="paper-entry__authors">Takayuki Shinohara, Hidetaka Saomoto, J-katagiri</p>
+      <p class="paper-entry__poster">Poster #197 · Exhibit Hall A</p>
     </li>
     <li class="paper-entry">
       <p class="paper-entry__title">Building-Diffusion: Graph Discrete Diffusion Model For Architectural Volumetric Design Generation <span class="p-award">Oral</span></p>
       <p class="paper-entry__authors">Mohammed El Amine Sehaba, Igor Krawczuk, Serge Miguet, Xavier MARSAULT</p>
+      <p class="paper-entry__poster">Poster #198 · Exhibit Hall A</p>
     </li>
     <li class="paper-entry">
       <p class="paper-entry__title">EgoWorkPM: A Worker-Centric Approach for Activity-level Progress Monitoring in Construction via Egocentric Vision</p>
       <p class="paper-entry__authors">Christine Wun Ki Suen, Zhengbo Zou</p>
+      <p class="paper-entry__poster">Poster #199 · Exhibit Hall A</p>
     </li>
     <li class="paper-entry">
       <p class="paper-entry__title">USIVA: Uncertainty-guided Spatiotemporal Mapping for Indoor Ventilation Assessment</p>
       <p class="paper-entry__authors">Weijia Cai, Zhengbo Zou</p>
+      <p class="paper-entry__poster">Poster #200 · Exhibit Hall A</p>
     </li>
   </ul>
 </div>
@@ -322,10 +326,12 @@ is a Full Professor of Urban Informatics, jointly appointed at New York Universi
     <li class="paper-entry">
       <p class="paper-entry__title">Rethinking Infrastructure Inspection as Image Difference Classification: A Traffic Sign Case Study</p>
       <p class="paper-entry__authors">Ching Yau Fergus Mok, Lavindra de Silva, Varun Kumar Reja, Ioannis Brilakis</p>
+      <p class="paper-entry__poster">Poster #201 · Exhibit Hall A</p>
     </li>
     <li class="paper-entry">
       <p class="paper-entry__title">UAV-Assisted Scan-to-Simulation for Landslides Using Physics-Informed Gaussian Splatting <span class="p-award">Oral</span></p>
       <p class="paper-entry__authors">Zhenyu Liang, Jack C.P. Cheng</p>
+      <p class="paper-entry__poster">Poster #202 · Exhibit Hall A</p>
     </li>
   </ul>
 </div>
@@ -378,7 +384,6 @@ The challenge focuses on **spatiotemporal 3D point cloud registration** of evolv
 ### Evaluation
 
 - **Spatiotemporal registration task:** Submissions will be evaluated using a **global RMSE metric**, providing a standardized measure for comparing performance across methods.
-- **Spatiotemporal semantic understanding task:** Methods will be evaluated on standard segmentation metrics, as well as temporal counterparts.
 
 ### Challenge Timeline
 

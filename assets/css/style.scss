@@ -1747,6 +1747,14 @@ summary:focus-visible,
   line-height: 1.5;
 }
 
+.paper-entry__poster {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  line-height: 1.4;
+}
+
 // ---------------------------------------------------------------------------
 // Submission CTAs
 // ---------------------------------------------------------------------------
