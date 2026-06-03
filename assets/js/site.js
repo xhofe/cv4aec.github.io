@@ -145,29 +145,6 @@ document.addEventListener("DOMContentLoaded", () => {
     sections.forEach(section => sectionObserver.observe(section));
   }
 
-  // Workshop day banner (June 3, 2026 — America/Denver)
-  const workshopBanner = document.getElementById("workshop-day-banner");
-  if (workshopBanner) {
-    const dismissKey = "cv4aec-workshop-banner-dismissed";
-    const todayDenver = new Intl.DateTimeFormat("en-CA", {
-      timeZone: "America/Denver",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    }).format(new Date());
-
-    if (todayDenver === "2026-06-03" && sessionStorage.getItem(dismissKey) !== "1") {
-      workshopBanner.hidden = false;
-      document.body.classList.add("workshop-day-active");
-    }
-
-    workshopBanner.querySelector(".workshop-day-banner__dismiss")?.addEventListener("click", () => {
-      workshopBanner.hidden = true;
-      document.body.classList.remove("workshop-day-active");
-      sessionStorage.setItem(dismissKey, "1");
-    });
-  }
-
   // Timeline: past / upcoming + countdown
   function parseTimelineDeadline(item) {
     const dateStr = item.dataset.date;

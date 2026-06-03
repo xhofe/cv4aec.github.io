@@ -199,6 +199,11 @@ strong {
   }
 }
 
+.event-highlight__zoom {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
 @media screen and (max-width: 480px) {
   .event-highlight__title {
     font-size: 1.15rem;
@@ -667,14 +672,6 @@ body.sticky-nav-visible .main-content {
   }
 }
 
-body.workshop-day-active .sticky-nav {
-  top: 2.75rem;
-}
-
-body.workshop-day-active.sticky-nav-visible .main-content {
-  scroll-margin-top: calc(var(--scroll-offset-sticky) + 2.75rem);
-}
-
 // ---------------------------------------------------------------------------
 // Main content area
 // ---------------------------------------------------------------------------
@@ -1018,54 +1015,6 @@ summary:focus-visible,
 .submission-btn:focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
-}
-
-.workshop-day-banner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 110;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.65rem 1rem;
-  padding: 0.55rem 2.5rem 0.55rem 1rem;
-  background: linear-gradient(90deg, #15803d 0%, #16a34a 100%);
-  color: #fff;
-  font-size: 0.9rem;
-  box-shadow: var(--shadow-md);
-
-  &[hidden] {
-    display: none !important;
-  }
-
-  a {
-    color: #fff !important;
-    font-weight: 700;
-    text-decoration: underline;
-  }
-}
-
-.workshop-day-banner__dismiss {
-  position: absolute;
-  right: 0.65rem;
-  top: 50%;
-  transform: translateY(-50%);
-  border: none;
-  background: transparent;
-  color: #fff;
-  font-size: 1.35rem;
-  line-height: 1;
-  cursor: pointer;
-  padding: 0.15rem 0.35rem;
-  border-radius: var(--radius-sm);
-
-  &:focus-visible {
-    outline: 2px solid #fff;
-    outline-offset: 2px;
-  }
 }
 
 // ---------------------------------------------------------------------------
@@ -1815,6 +1764,11 @@ summary:focus-visible,
   }
 }
 
+.callout--zoom {
+  border-left-color: #0b5cff;
+  background: rgba(45, 140, 255, 0.08);
+}
+
 // ---------------------------------------------------------------------------
 // Footer
 // ---------------------------------------------------------------------------
@@ -2003,22 +1957,6 @@ summary:focus-visible,
 
   .timeline-section {
     --timeline-date-col: 5.75rem;
-  }
-
-  .workshop-day-banner {
-    padding: 0.65rem 2.25rem 0.65rem 0.85rem;
-    font-size: 0.8125rem;
-    text-align: left;
-    align-items: flex-start;
-  }
-
-  .workshop-day-banner__text {
-    margin: 0;
-    flex: 1 1 100%;
-  }
-
-  body.workshop-day-active .sticky-nav {
-    top: 3.25rem;
   }
 
   .archive-dropdown__menu {
