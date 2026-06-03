@@ -2608,11 +2608,6 @@ summary:focus-visible,
   color: #fff !important;
 }
 
-.callout--zoom {
-  border-left-color: #0b5cff;
-  background: rgba(45, 140, 255, 0.08);
-}
-
 .site-footer {
   margin-top: 0;
   padding: 2rem 1.5rem 2.5rem;

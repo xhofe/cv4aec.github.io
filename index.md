@@ -176,11 +176,7 @@ The workshop will consist of: invited <a href="#speakers" target="_self">keynote
 ---
 
 <h2 class="section-heading section-heading--schedule" id="schedule">Schedule</h2>
-The workshop will take place on **June 3, Room 109** as a **half-day in-person event (1:00 PM – 6:00 PM)**. Remote attendees can join via **[Zoom](https://us06web.zoom.us/j/82733700882?pwd=tDcMc8SyZs2e3j4SBzUtL0aKSkNLlH.1)**.
-
-<div class="callout callout--zoom" id="zoom-join">
-  <strong>Join remotely:</strong> The live stream is on Zoom — <a href="https://us06web.zoom.us/j/82733700882?pwd=tDcMc8SyZs2e3j4SBzUtL0aKSkNLlH.1">click here to join the workshop</a> (June 3, 1:00 PM–6:00 PM MDT).
-</div>
+The workshop will take place on **June 3, Room 109** as a **half-day in-person event (1:00 PM – 6:00 PM)**.
 
 <div class="schedule-table-wrapper">
 
